@@ -1,0 +1,247 @@
+# --- AI Tools & Coding Assistants ---
+.cursor/
+.claude/
+.cline/
+.windsurf/
+.v0/
+.aider*
+*.chat
+*.prompt
+
+# --- Environment & Secrets ---
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+
+# --- OS Metadata ---
+.DS_Store
+.AppleDouble
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- IDEs & Editors ---
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+*.swp
+*.swo
+
+# --- Logs & Caches ---
+*.log
+logs/
+*.tmp
+*.temp
+.cache/
+.turbo/
+.nx/
+
+
+# --- Dependencies & Package Managers ---
+node_modules/
+.pnpm-store/
+.bun/
+
+# Package Manager Logs & PnP
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnp
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# --- TypeScript ---
+*.tsbuildinfo
+*.ts.build/
+dist-types/
+
+# --- Build Outputs & Framework Artifacts ---
+dist/
+build/
+out/
+lib/
+.next/
+.nuxt/
+.svelte-kit/
+.output/
+.turbo/
+
+# --- Python Bytecode & Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Virtual Environments ---
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Packaging & Distribution ---
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+*.egg
+
+# --- Testing & Code Quality (pytest, mypy, ruff) ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+
+# --- Go (Golang) ---
+# Binaries & Executables
+bin/
+*.exe
+*.exe-
+*.dll
+*.so
+*.dylib
+
+# Test & Coverage Outputs
+*.test
+*.out
+coverage.txt
+profile.out
+
+# Go Vendor (ปลดล็อกข้อความออกหากไม่ต้องการ Commit โฟลเดอร์ vendor)
+# vendor/
+
+# --- Docker ---
+# Docker Compose Local Overrides
+docker-compose.override.yml
+docker-compose.*.local.yml
+
+# Exported Images & Docker Artifacts
+*.tar
+*.tar.gz
+.docker/
+
+# --- SQLite & Local Database Files ---
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.sqlite3-journal
+dev.db
+dev.db-journal
+
+# --- Local DB Tools & Environments ---
+.supabase/
+.firebase/
+.dbeaver/
+.idea/dataSources/
+
+# --- ORM & Migration Cache ---
+.drizzle/cache/
+*.db.tmp
+
+# --- .NET (C# / F# / Visual Studio / Rider) ---
+# Build & Output directories
+bin/
+obj/
+out/
+
+# Visual Studio & Rider Artifacts
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# NuGet Packages
+*.nupkg
+# packages/ (ปลดล็อกหากเก็บ NuGet Packages ไว้ใน Local Folder)
+
+# --- Java (Maven / Gradle / Spring Boot) ---
+# Compiled Class Files
+*.class
+
+# Binaries & Package Files
+*.jar
+*.war
+*.nar
+*.ear
+
+# Maven Output
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.nextVersionsBackup
+release.properties
+
+# Gradle Output
+.gradle/
+build/
+
+# --- Rust ---
+/target/
+**/*.rs.bk
+*.rmeta
+
+# --- PHP & Composer ---
+/vendor/
+composer.phar
+.phpunit.result.cache
+
+# --- Ruby & Ruby on Rails ---
+/.bundle/
+/vendor/bundle/
+/log/
+/tmp/
+*.gem
+
+# --- C / C++ & CMake ---
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+
+# --- Swift & iOS (Xcode) ---
+.build/
+DerivedData/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# --- Flutter & Dart ---
+.dart_tool/
+.pub-cache/
+.pub/
+build/
+ephemeral/
+
+# --- Android (Kotlin / Java) ---
+.gradle/
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/

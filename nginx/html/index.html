@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workspace Ready</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased min-h-screen flex items-center justify-center relative overflow-hidden font-sans">
+
+  <!-- 1. Light Background Grid Pattern -->
+  <div class="absolute inset-0 bg-[linear-gradient(to_right,#cbd5e1_1px,transparent_1px),linear-gradient(to_bottom,#cbd5e1_1px,transparent_1px)] bg-[size:3rem_3rem] opacity-40"></div>
+
+  <!-- 2. Soft Ambient Glow -->
+  <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-indigo-200/50 rounded-full blur-3xl pointer-events-none"></div>
+
+  <!-- 3. Main Card -->
+  <div class="relative z-10 max-w-md w-full mx-4 text-center p-8 rounded-2xl bg-white/80 border border-slate-200/80 backdrop-blur-md shadow-xl shadow-slate-200/50">
+    
+    <!-- AI Sparkles Icon -->
+    <div class="w-14 h-14 mx-auto mb-5 rounded-2xl bg-indigo-50 border border-indigo-100 flex items-center justify-center text-indigo-600 shadow-sm">
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/>
+        <path d="M5 3v4"/>
+        <path d="M19 17v4"/>
+        <path d="M3 5h4"/>
+        <path d="M17 19h4"/>
+      </svg>
+    </div>
+
+    <!-- Header Text -->
+    <h2 class="text-xl font-semibold text-slate-900 tracking-tight mb-2">
+      Workspace Ready
+    </h2>
+
+    <!-- Subtitle Text -->
+    <p class="text-sm text-slate-600 leading-relaxed mb-6">
+      Your canvas is ready. Enter your prompts in the chat to start generating UI, architecture, or production code in real-time.
+    </p>
+
+    <!-- Feature Tags -->
+    <div class="flex flex-wrap items-center justify-center gap-2 pt-4 border-t border-slate-100 text-xs text-slate-500 font-medium">
+      <span class="px-2.5 py-1 rounded-md bg-slate-100 border border-slate-200/60">⚡ Live Preview</span>
+      <span class="px-2.5 py-1 rounded-md bg-slate-100 border border-slate-200/60">💻 Code Generator</span>
+      <span class="px-2.5 py-1 rounded-md bg-slate-100 border border-slate-200/60">📐 Architecture</span>
+    </div>
+
+  </div>
+
+</body>
+</html>
